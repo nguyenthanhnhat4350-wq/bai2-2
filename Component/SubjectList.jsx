@@ -1,10 +1,18 @@
+import React from "react";
+import "./SubjectList.css"
+
 function SubjectList(props) {
   return (
-    <ul>
+    <div className="subject-container">
+        <h2 className="subject-title">Danh sách môn học</h2>
+    <ul className="subject-list">
       {props.subjects.map((item, index) => (
-        <li key={index}>{item}</li>
+        <li className="subject-item" key={index}>
+            {subject}
+        </li>
       ))}
     </ul>
+    </div>
   );
 }
 
