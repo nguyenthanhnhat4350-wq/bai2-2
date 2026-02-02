@@ -6,9 +6,9 @@ function SubjectList(props) {
     <div className="subject-container">
       <h2 className="subject-title">Danh sách môn học</h2>
       <ul className="subject-list">
-        {props.subjects.map((item, index) => (
+        {props.subjects.map((subject, index) => (
           <li className="subject-item" key={index}>
-            {item}
+            {subject}
           </li>
         ))}
       </ul>
