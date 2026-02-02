@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SubjectList from "./Component/SubjectList";
-import "./SubjectList.css";
+import "./Component/SubjectList.css";
 
 function App() {
   const subjects = ["ReactJS", "NodeJS", "Java", "Database"];
