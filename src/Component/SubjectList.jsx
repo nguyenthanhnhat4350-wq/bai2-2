@@ -1,5 +1,5 @@
 import React from "react";
-import "./Component/SubjectList.css";
+import SubjectList from "./Component/SubjectList.css";
 
 function SubjectList(props) {
   return (
